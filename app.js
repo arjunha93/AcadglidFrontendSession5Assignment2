@@ -1,8 +1,12 @@
-var name = "Arjun H A";
-var age = 26;
-var dateofbirth = "03/05/1993";
-var placeofbirth = "mandya";
-console.log("name ",name);
-console.log("age ",age);
-console.log("dateofbirth ",dateofbirth);
-console.log("placeofbirth ",placeofbirth);
+
+var myObject = {
+    name: 'Arjun H A',
+    age: 26,
+    dateofbirth: "03/05/1993",
+    placeofbirth:  "mandya"
+  
+};
+console.log("name ",myObject.name);
+console.log("age ",myObject.age);
+console.log("dateofbirth ",myObject.dateofbirth);
+console.log("placeofbirth ",myObject.placeofbirth);
